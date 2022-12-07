@@ -1,0 +1,64 @@
+TODO: Exercise Behavioral Patterns - Strategy Pattern:
+------------------------------------------------------
+************
+* DEUTSCH: *
+************
+
+Sie haben die Klasse "BubbleSort" gegeben, mit der Sie Integerzahlen
+sortieren können. 
+
+Erweitern Sie das Beispiel, damit Sie wahlweise aufsteigend (ascending)
+und abfallend (descending) sortieren können.
+Die Auswahl soll über den Parameter einer Factory Method erfolgen.
+
+1. Definieren Sie ein Interface mit dem Namen "Sorter".
+
+2. Implementieren Sie die beiden Klassen "BubbleSortAscendingStrategy" 
+	und "BubbleSortDescendingStrategy".
+
+3. Implementieren Sie die Klasse "SorterFactoryStrategyImpl".
+
+Überprüfen Sie ihre Implementierung mit der Klasse "BubbleSortStrategyTest".
+Der Test gibt ihnen zu einigen Details Auskunft.
+
+HINWEIS:
+Das BubbleSort_Strategy_Classdiagram.png soll eine Hilfe sein uns schlägt
+einen möglichen Weg vor. Solange die Tests erfüllt sind haben Sie aber auch
+die Möglichkeit einen andern Weg zu beschreiten.
+
+Achten Sie darauf, Code-Duplication zu minimieren!
+
+Gutes Gelingen!
+
+----
+************
+* ENGLISH: *
+************
+
+
+
+Given is a class "BubbleSort" with this class one can sort integer numbers.
+
+Please extend the example about the functionality to sort either ascending
+OR descending.
+
+The choice shall be done via a Parameter of the factory method.
+
+1. Define an interface "Sorter".
+
+2. Implement both classes:
+   "BubbleSortAscendingStrategy", and
+   "BubbleSortDescendingStrategy".
+
+3. Implement the class "SorterFactoryStrategyImpl".
+
+Check your implementation with the help of the "BubbleSortStrategyTest"
+test class. The test gives you some details.
+
+HINT:
+The BubbleSort_Strategy_Classdiagram.png gives you some helping pointers.
+As long as the unit tests are green, you can vary your solution.
+
+Please try to minimize code duplication!
+
+Have fun!
